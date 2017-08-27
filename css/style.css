@@ -18,7 +18,20 @@
 }
 
 */
-
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
 .active .player-name {
     font-weight: 300;
 }
@@ -56,20 +69,7 @@
 
 
 }
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    color: #555;
-    background: none;
-    border: none;
-    font-family: Lato;
-    font-size: 20px;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-weight: 300;
-    transition: background-color 0.3s, color 0.3s;
-}
+
 
 
 .active .player-name::after {
